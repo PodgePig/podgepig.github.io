@@ -1,0 +1,5 @@
+{{ $title := .Get "title" | default "Definition" }}
+<div class="math-env math-def">
+  <div class="env-title">{{ $title }}</div>
+  <div class="env-body">{{ .Inner | markdownify }}</div>
+</div>
