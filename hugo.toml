@@ -1,4 +1,4 @@
 baseURL = 'https://podgepig.github.io/'
 locale = 'en-us'
-title = 'My New Hugo Project'
+title = 'Applications of Pure Mathematics to Finance, by Padraig Hill'
 theme = 'ananke'
