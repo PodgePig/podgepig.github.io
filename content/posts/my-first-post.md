@@ -9,4 +9,9 @@ This is **bold** text, and this is *emphasized* text.
 
 Visit the [Hugo](https://gohugo.io) website!
 
-$f(x) = x^2$
+The formula \(f(x) = x^2\) is inline,
+whereas 
+\[
+\int f(x) dx
+\]
+is centered.
