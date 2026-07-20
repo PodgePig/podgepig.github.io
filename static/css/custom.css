@@ -1,0 +1,57 @@
+.math-env {
+  margin: 1.5rem 0;
+  padding: 0.75rem 1.5rem 1.25rem 1.5rem;
+  border-left: 6px solid #ccc;
+  border-radius: 0.5rem;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  overflow-x: auto;
+}
+
+.math-env .env-title {
+  font-weight: 700;
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+  border-bottom: 1px solid #eaecef;
+  padding-bottom: 0.25rem;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  font-size: 0.85rem;
+}
+
+.math-def { border-left-color: #005cc5; background-color: #f1f8ff; }
+.math-def .env-title { color: #005cc5; }
+
+.math-theorem { border-left-color: #d73a49; background-color: #ffeef0; }
+.math-theorem .env-title { color: #d73a49; }
+
+.math-lemma { border-left-color: #28a745; background-color: #f0fff4; }
+.math-lemma .env-title { color: #28a745; }
+
+.math-proof { border-left-color: #6f42c1; background-color: #f5f0ff; }
+.math-proof .env-body { font-style: italic; }
+.math-proof .qed { text-align: right; font-weight: bold; font-style: normal; margin-top: 0.5rem; }
+
+body {
+  font-family: 'Georgia', 'Times New Roman', serif;
+  font-size: 1.15rem;
+  line-height: 1.8;
+  color: #2d2d2d;
+}
+
+h1, h2, h3 {
+  font-family: 'Arial', 'Helvetica', sans-serif;
+  letter-spacing: -0.02em;
+  color: #1a1a1a;
+}
+
+/* Make hyperlinks pop */
+a {
+  color: #005cc5;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-bottom 0.2s;
+}
+a:hover {
+  border-bottom: 1px solid #005cc5;
+}

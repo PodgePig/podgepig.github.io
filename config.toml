@@ -1,5 +1,5 @@
 baseURL = 'https://podgepig.github.io/'
-locale = 'en-us'
+locale = 'en-uk'
 title = 'Applications of Pure Mathematics to Finance, by Padraig Hill'
 theme = 'ananke'
 
@@ -14,3 +14,4 @@ theme = 'ananke'
 
 [params]
   math = true
+  background_color_class = "bg-washed-blue"
