@@ -1,7 +1,6 @@
 baseURL = 'https://podgepig.github.io/'
 locale = 'en-uk'
 title = 'Applications of Pure Mathematics to Finance'
-description = 'by Padraig Hill'
 theme = 'ananke'
 
 [markup]
@@ -14,4 +13,5 @@ theme = 'ananke'
           inline = [['\(', '\)']]
 
 [params]
-  background_color_class = "bg-blue"
+  background_color_class = "bg-white"
+  description = "by Padraig Hill"
