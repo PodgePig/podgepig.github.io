@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
-		<title>Applications of Pure Mathematics to Finance, by Padraig Hill</title>
+		<title>Applications of Pure Mathematics to Finance</title>
 		<link>http://localhost:1313/</link>
-		<description>Recent content on Applications of Pure Mathematics to Finance, by Padraig Hill</description>
+		<description>Recent content on Applications of Pure Mathematics to Finance</description>
 		<generator>Hugo</generator>
 		<language>en-uk</language>
 		
@@ -18,7 +18,7 @@
 				<link>http://localhost:1313/posts/my-first-post/</link>
 				<pubDate>Tue, 14 Jul 2026 13:19:39 +0100</pubDate>
 				<guid>http://localhost:1313/posts/my-first-post/</guid>
-				<description>&lt;h2 id=&#34;random-walks-on-manifolds&#34;&gt;Random Walks on Manifolds&lt;/h2&gt;&#xA;&lt;p&gt;Random walks are the quintessential building blocks of stochastic processes. From Einstein&amp;rsquo;s explanation of Brownian motion to the discrete-time models underpinning modern option pricing, the premise is deceptively simple: at each step, take an independent, identically distributed (IID) jump in a random direction. In Euclidean space \(\mathbb{R}^n\), this is trivial, as all position vectors share the same global tangent space. However, when the state space is a curved manifold—say, the space of covariance matrices, the configuration space of a rigid body, or the parameter space of an interest rate curve—the very notion of &amp;ldquo;stepping in the same direction&amp;rdquo; breaks down. To extend the random walk to a curved geometry, we must first understand how to &amp;ldquo;go straight&amp;rdquo; on a manifold. This is precisely the role of a Riemannian metric and its associated geodesics.&lt;/p&gt;</description>
+				<description>&lt;p&gt;Random walks are the quintessential building blocks of stochastic processes. From Einstein&amp;rsquo;s explanation of Brownian motion to the discrete-time models underpinning modern option pricing, the premise is deceptively simple: at each step, take an independent, identically distributed (IID) jump in a random direction. In Euclidean space \(\mathbb{R}^n\), this is trivial, as all position vectors share the same global tangent space. However, when the state space is a curved manifold—say, the space of covariance matrices, the configuration space of a rigid body, or the parameter space of an interest rate curve—the very notion of &amp;ldquo;stepping in the same direction&amp;rdquo; breaks down. To extend the random walk to a curved geometry, we must first understand how to &amp;ldquo;go straight&amp;rdquo; on a manifold. This is precisely the role of a Riemannian metric and its associated geodesics.&lt;/p&gt;</description>
 			</item>
 	</channel>
 </rss>

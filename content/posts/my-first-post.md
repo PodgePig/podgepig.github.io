@@ -2,9 +2,8 @@
 date = '2026-07-14T13:19:39+01:00'
 draft = false
 title = 'Brownian motion in Riemannian manifolds'
+featured_image = '/images/random-walk.png'
 +++
-
-## Random Walks on Manifolds
 
 Random walks are the quintessential building blocks of stochastic processes. From Einstein's explanation of Brownian motion to the discrete-time models underpinning modern option pricing, the premise is deceptively simple: at each step, take an independent, identically distributed (IID) jump in a random direction. In Euclidean space \(\mathbb{R}^n\), this is trivial, as all position vectors share the same global tangent space. However, when the state space is a curved manifold—say, the space of covariance matrices, the configuration space of a rigid body, or the parameter space of an interest rate curve—the very notion of "stepping in the same direction" breaks down. To extend the random walk to a curved geometry, we must first understand how to "go straight" on a manifold. This is precisely the role of a Riemannian metric and its associated geodesics.
 
@@ -12,7 +11,7 @@ Random walks are the quintessential building blocks of stochastic processes. Fro
 
 A Riemannian metric equips each tangent space \(T_x X\) with an inner product, allowing us to measure lengths and angles locally. More formally:
 
-{{< def title="Riemannian Metric" >}}
+{{< def >}}
 Let \(X\) be a smooth manifold. A **Riemannian metric** \(g\) on \(X\) is a smooth section 
 \(g \in \Gamma(S^2T^*X)\), such that \(g(x) \in S^2T_x^* X\) is a positive definite 
 quadratic form on \(T_x X\) for all \(x \in X\).
@@ -20,18 +19,20 @@ quadratic form on \(T_x X\) for all \(x \in X\).
 
 This metric induces a unique Levi-Civita connection \(\nabla\), which provides a notion of parallel transport. Critically, it also defines the geodesic equation \(\nabla_{\dot{\gamma}} \dot{\gamma} = 0\). Solving this yields the exponential map \(\exp_x: T_x X \to X\), which sends a tangent vector \(v_x\) to the point reached by traversing the unique geodesic starting at \(x\) with initial velocity \(v_x\) for unit time. The existence of these geodesics is guaranteed locally, and globally under completeness:
 
-{{< theorem title="Existence of Geodesics" >}}
+{{< theorem >}}
 Given a Riemannian manifold \((X, g)\) and a point \(x \in X\), for any tangent vector 
 \(v_x \in T_x M\), there exists a unique maximal geodesic \(\gamma: I \to X\) such that 
 \(\gamma(0) = x\) and \(\dot{\gamma}(0) = v_x\).
 {{< /theorem >}}
+
+In fact, under compactness this interval \(I\) is always the whole of \(\mathbb{R}\). This is exactly the content of the following lemma:
 
 {{< lemma >}}
 Every compact Riemannian manifold is geodesically complete.
 {{< /lemma >}}
 
 {{< proof >}}
-This follows directly from the Hopf-Rinow theorem, which states that for a connected Riemannian manifold, metric completeness is equivalent to geodesic completeness. Compactness implies metric completeness.
+This follows directly from the Hopf-Rinow theorem, which states that for a connected Riemannian manifold, metric completeness is equivalent to geodesic completeness. Compactness implies metric completeness. The idea is that the only way a geodesic can fail to be globally-defined is if it "falls off" the manifold, or is allowed to go off "into infinity". Compactness makes sure this can never happen.
 {{< /proof >}}
 
 ---
@@ -60,7 +61,7 @@ In Euclidean space, the classical CLT tells us that a scaled random walk \(S_n /
 
 Let us define the continuous-time scaled geodesic random walk. Let \(X^{(n)}_t = X_{\lfloor nt \rfloor}^{1/\sqrt{n}}\), where \(\lfloor nt \rfloor\) denotes the integer part. Essentially, we take \(n\) microscopic steps of size \(1/\sqrt{n}\) over one unit of macroscopic time. The convergence result is as follows:
 
-{{< theorem title="Convergence of Geodesic Random Walks to Brownian Motion" >}}
+{{< theorem >}}
 Let \((X, g)\) be a compact Riemannian manifold. Let \((X^{(n)}_t)_{t \geq 0}\) be the continuous-time geodesic random walk with step size \(1/\sqrt{n}\). Then, as \(n \to \infty\), the sequence of processes \((X^{(n)}_t)\) converges weakly in the Skorokhod topology to Brownian motion on \(X\). Specifically, for any smooth function \(f\),
 \[
 \lim_{n \to \infty} \mathbb{E}[ f(X^{(n)}_t) ] = \mathbb{E}[ f(B_t) ],

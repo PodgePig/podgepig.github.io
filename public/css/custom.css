@@ -5,10 +5,29 @@ body {
   color: #2d2d2d;
 }
 
-h1, h2, h3 {
-  font-family: 'Arial', 'Helvetica', sans-serif;
+h1, h2, h3, h4, h5, h6,
+.f1, .f2, .f3, .f4, .f5, .f6, .f7,
+.sans-serif,
+.ns-serif,
+.site-title, .page-title,
+.cover h1, .cover h2,
+header h1, header h2 {
+  font-family: 'Georgia', 'Times New Roman', serif !important;
   letter-spacing: -0.02em;
   color: #1a1a1a;
+}
+
+.cover .tc-l {
+  background-color: rgba(240, 240, 240, 0.92);
+  border: 3px solid #a0a0a0;
+  border-radius: 10px;
+  padding: 0.75rem 2rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  width: auto;                              /* Ensures width fits content */
+  max-width: 90%;                           /* Prevents overflow on small screens */
+  display: table;                           /* Alternative to inline-block for centering */
+  margin: 1rem auto;                        /* Auto margins center it */
+  text-align: center;
 }
 
 a {
