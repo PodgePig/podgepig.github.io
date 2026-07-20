@@ -11,7 +11,7 @@ To do the same on a manifold need a good theory of 'paths in a direction'.
 This is exactly what a Riemannian metric gives, by way of geodesics.
 
 {{< def title="Riemannian Metric" >}}
-Let \(X\) be a smooth manifold. A **Riemannian metric** \(g\) on \(X\) is a smooth section 
+Let \\(X\\) be a smooth manifold. A **Riemannian metric** \(g\) on \(X\) is a smooth section 
 \(g \in \Gamma(S^2T^*X)\), such that \(g(x) \in S^2T_x^* X\) is a positive definite 
 quadratic form on \(T_x X\) for all \(x \in X\).
 {{< /def >}}
@@ -29,3 +29,17 @@ Every compact Riemannian manifold is geodesically complete.
 {{< proof >}}
 This follows directly from the Hopf-Rinow theorem.
 {{< /proof >}}
+
+To define a random walk on a Riemannian manifold, pick some \(v_x \in T_x X\)
+and travel along the corresponding geodesic for one unit. 
+Now the problem is, random walks are supposed to have IID steps, but in
+this case they don't even live on the same probability space!
+To compare tangent spaces, Differential Geometers use
+connections, or parallel transport. But this depends on the curve.
+Therefore, we ask that the steps are "IID" under parallel transport 
+along *any curve*.
+
+## Central Limit Theorem type result
+
+Now scale by \(1/sqrt{k}\). In the Euclidean case CLT syays that this 
+coverges in distribution to normal (Brownian motion).

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
-		<title>My New Hugo Project</title>
+		<title>Applications of Pure Mathematics to Finance, by Padraig Hill</title>
 		<link>http://localhost:1313/</link>
-		<description>Recent content on My New Hugo Project</description>
+		<description>Recent content on Applications of Pure Mathematics to Finance, by Padraig Hill</description>
 		<generator>Hugo</generator>
 		<language>en-us</language>
 		
@@ -14,11 +14,11 @@
 		
 			<atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
 			<item>
-				<title>My First Post</title>
+				<title>Brownian motion in Riemannian manifolds</title>
 				<link>http://localhost:1313/posts/my-first-post/</link>
 				<pubDate>Tue, 14 Jul 2026 13:19:39 +0100</pubDate>
 				<guid>http://localhost:1313/posts/my-first-post/</guid>
-				<description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;This is &lt;strong&gt;bold&lt;/strong&gt; text, and this is &lt;em&gt;emphasized&lt;/em&gt; text.&lt;/p&gt;&#xA;&lt;p&gt;Visit the &lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt; website!&lt;/p&gt;&#xA;&lt;p&gt;$f(x) = x^2$&lt;/p&gt;</description>
+				<description>&lt;h2 id=&#34;random-walks-on-manifolds&#34;&gt;Random walks on manifolds&lt;/h2&gt;&#xA;&lt;p&gt;A random walk is &amp;hellip;&#xA;To do the same on a manifold need a good theory of &amp;lsquo;paths in a direction&amp;rsquo;.&#xA;This is exactly what a Riemannian metric gives, by way of geodesics.&lt;/p&gt;&#xA;&#xD;&#xA;&lt;div class=&#34;math-env math-def&#34;&gt;&#xD;&#xA;  &lt;div class=&#34;env-title&#34;&gt;Riemannian Metric&lt;/div&gt;&#xD;&#xA;  &lt;div class=&#34;env-body&#34;&gt;Let \(X\) be a smooth manifold. A &lt;strong&gt;Riemannian metric&lt;/strong&gt; \(g\) on \(X\) is a smooth section&#xA;\(g \in \Gamma(S^2T^*X)\), such that \(g(x) \in S^2T_x^* X\) is a positive definite&#xA;quadratic form on \(T_x X\) for all \(x \in X\).&lt;/div&gt;&#xD;&#xA;&lt;/div&gt;&#xA;&#xD;&#xA;&lt;div class=&#34;math-env math-theorem&#34;&gt;&#xD;&#xA;  &lt;div class=&#34;env-title&#34;&gt;Existence of Geodesics&lt;/div&gt;&#xD;&#xA;  &lt;div class=&#34;env-body&#34;&gt;Given a Riemannian manifold \((X, g)\) and a point \(x \in X\), for any tangent vector&#xA;\(v_x \in T_x M\), there exists a unique maximal geodesic \(\gamma: I \to X\) such that&#xA;\(\gamma(0) = x\) and \(\dot{\gamma}(0) = v_x\).&lt;/div&gt;&#xD;&#xA;&lt;/div&gt;&#xA;&#xD;&#xA;&lt;div class=&#34;math-env math-lemma&#34;&gt;&#xD;&#xA;  &lt;div class=&#34;env-title&#34;&gt;Lemma&lt;/div&gt;&#xD;&#xA;  &lt;div class=&#34;env-body&#34;&gt;Every compact Riemannian manifold is geodesically complete.&lt;/div&gt;&#xD;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;math-env math-proof&#34;&gt;&#xD;&#xA;  &lt;div class=&#34;env-body&#34;&gt;&lt;strong&gt;Proof.&lt;/strong&gt; This follows directly from the Hopf-Rinow theorem.&lt;/div&gt;&#xD;&#xA;  &lt;div class=&#34;qed&#34;&gt;■&lt;/div&gt;&#xD;&#xA;&lt;/div&gt;&#xA;&lt;p&gt;To define a random walk on a Riemannian manifold, pick some \(v_x \in T_x X\)&#xA;and travel along the corresponding geodesic for one unit.&#xA;Now the problem is, random walks are supposed to have IID steps, but in&#xA;this case they don&amp;rsquo;t even live on the same probability space!&#xA;To compare tangent spaces, Differential Geometers use&#xA;connections, or parallel transport. But this depends on the curve.&#xA;Therefore, we ask that the steps are &amp;ldquo;IID&amp;rdquo; under parallel transport&#xA;along &lt;em&gt;any curve&lt;/em&gt;.&lt;/p&gt;</description>
 			</item>
 	</channel>
 </rss>
