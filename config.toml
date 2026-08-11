@@ -1,6 +1,6 @@
 baseURL = 'https://podgepig.github.io/'
 locale = 'en-uk'
-title = 'Applications of Pure Mathematics to Finance'
+title = 'Applications of Pure Mathematics to Machine Learning and Finance'
 theme = 'ananke'
 
 [markup]
