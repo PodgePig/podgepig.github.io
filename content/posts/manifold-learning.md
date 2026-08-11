@@ -2,7 +2,7 @@
 date = '2026-08-11T19:13:06+01:00'
 draft = false
 title = 'Manifold learning: non-linear dimension reduction from the geometry of data'
-featured_image = '/images/manifold-learning.png'
+featured_image = '/images/manifold-learning.jpg'
 +++
 
 In the previous post we constructed random walks and Brownian motion on a Riemannian manifold by exploiting a given metric \(g\). The exponential map, the Laplace–Beltrami operator, and the heat kernel all flowed from the known geometry. But what if the manifold itself is unknown? Suppose we are only given a point cloud
