@@ -5,7 +5,7 @@ title = 'Manifold learning: non‑linear dimension reduction from the geometry o
 featured_image = '/images/manifold-learning.png'
 +++
 
-In the [previous post](/content/posts/brownian-motion-riemannian-manifolds/) we constructed random walks and Brownian motion on a Riemannian manifold by exploiting a given metric \(g\). The exponential map, the Laplace–Beltrami operator, and the heat kernel all flowed from the known geometry. But what if the manifold itself is unknown? Suppose we are only given a point cloud
+In the [previous post](/posts/brownian-motion-riemannian-manifolds/) we constructed random walks and Brownian motion on a Riemannian manifold by exploiting a given metric \(g\). The exponential map, the Laplace–Beltrami operator, and the heat kernel all flowed from the known geometry. But what if the manifold itself is unknown? Suppose we are only given a point cloud
 \[
 \{x_1,\dots,x_N\} \subseteq \mathbb{R}^D,
 \]
